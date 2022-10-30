@@ -1,0 +1,7 @@
+#archivo de texto
+
+
+
+#Carpeta node_modules
+#guardar con control s  hay que ignorala en el archivo posta en la carpeta gitignore
+node_modules/

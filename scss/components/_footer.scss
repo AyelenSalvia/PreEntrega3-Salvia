@@ -1,0 +1,29 @@
+@import "../base/variables";
+.footer {
+
+    div{
+    display: flex;
+    flex-direction: column;
+    }
+    grid-area: footer;
+    background-color: nth($colores, 4);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    div p {
+        padding: 5px;
+    } 
+    div a {
+        padding: 5px;
+        text-decoration: none;
+        color: rgb(75, 74, 74);
+        font-family: 'Noto Sans Avestan', sans-serif;
+    }
+    p {
+        color: rgb(75, 74, 74);
+        font-family: 'Noto Sans Avestan', sans-serif;
+        font-size: 16px;
+    }
+    
+
+}
